@@ -1,0 +1,31 @@
+use trainingprogramdb ;
+SELECT * FROM trainers;
+SHOW CREATE TABLE trainers;
+
+SELECT CONSTRAINT_NAME, CHECK_CLAUSE
+FROM INFORMATION_SCHEMA.CHECK_CONSTRAINTS
+WHERE CONSTRAINT_NAME = 'method_effectiveness_chk_3';
+
+SELECT * FROM assessments;
+
+SELECT 
+    CONSTRAINT_NAME, 
+    COLUMN_NAME, 
+    REFERENCED_TABLE_NAME, 
+    REFERENCED_COLUMN_NAME 
+FROM 
+    information_schema.KEY_COLUMN_USAGE 
+WHERE 
+    TABLE_NAME = 'material_usage' 
+    AND TABLE_SCHEMA = 'TrainingProgramDB';
+    
+GRANT ALL PRIVILEGES ON *.* TO 'rushi'@'192.168.249.144' IDENTIFIED BY 'Tellmehow123@';
+FLUSH PRIVILEGES;
+
+SELECT User, Host FROM mysql.user;
+
+GRANT ALL PRIVILEGES ON *.* TO 'rushi'@'192.168.249.144';
+
+SELECT User, Host FROM mysql.user WHERE User='rushi';
+
+GRANT ALL PRIVILEGES ON *.* TO 'rushi'@'%';
