@@ -84,7 +84,7 @@ def main():
 
     try:
         while True:
-            time.sleep(1)
+            time.sleep(3)
     except KeyboardInterrupt:
         observer.stop()
     observer.join()
