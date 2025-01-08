@@ -28,7 +28,7 @@ A well-thought-out relational database schema was created to handle all aspects 
 
 Here is a preview of the **Database Design**:
 
-![Database Design](img/database_design.png)
+![Database Design](img/Design_of_database.png)
 
 ### 3. **Interactive Power BI Dashboards**
 The dashboards are designed to present data visually, including:
@@ -39,7 +39,7 @@ The dashboards are designed to present data visually, including:
 
 Here is a preview of the **Power BI Dashboard**:
 
-![Power BI Dashboard](img/dashboard.png)
+![Power BI Dashboard](img/TP_dashboard(beta).png)
 
 These dashboards are hosted online, enabling stakeholders to access real-time insights for easy collaboration.
 
