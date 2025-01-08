@@ -1,4 +1,4 @@
-# Data Management System for 4-Month Training Program
+# Data Management System for Training Program
 
 ## Project Overview
 
