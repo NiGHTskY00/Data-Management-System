@@ -51,13 +51,13 @@ These dashboards are hosted online, enabling stakeholders to access real-time in
 - **Python**: Utilized libraries such as Watchdog for file monitoring, Pandas for automation, and data analysis.
   
 ### Database:
-- **PostgreSQL**: Designed and implemented a relational database, with optimized queries to handle large datasets.
+- **MySQL**: Designed and implemented a relational database, with optimized queries to handle large datasets.
 
 ### Visualization:
 - **Power BI**: Created interactive dashboards to visualize attendance, performance, and material usage.
 
 ### Hosting:
-- **Netlify**: Hosted the Power BI dashboards for real-time access by stakeholders.
+- **Netlify**: Hosted the Power BI dashboards for real-time access by stakeholders. [View the Dashboard](https://cool-mousse-bf94f2.netlify.app/)
 
 ### Workflow:
 - Collected data from Excel sheets (dummy data generated via ChatGPT).
